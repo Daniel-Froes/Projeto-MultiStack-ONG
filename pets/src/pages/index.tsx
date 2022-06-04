@@ -14,15 +14,15 @@ const Home: NextPage = () => {
       <Lista pets={[
         {
           id:1,
-          nome:'Bidu',
-          historia:'sdasjkdashdjaskdasjdhjaks',
-          foto:'https://love.doghero.com.br/wp-content/uploads/2019/09/Dachshund.jpg.jpg'
+          nome:'Bigode',
+          historia:'Morador de Rua',
+          foto:'/images/Bigode.jpg'
         },
         {
           id:1,
-          nome:'Scooby',
-          historia:'sdasjkdashdjaskdasjdhjaks',
-          foto:'https://love.doghero.com.br/wp-content/uploads/2019/09/Husky.jpg.jpg'
+          nome:'Max',
+          historia:'Putinha',
+          foto:'/images/Max.jpg'
         }
       ]}/>
     </div>
