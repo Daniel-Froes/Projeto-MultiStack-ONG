@@ -36,10 +36,10 @@ export function useIndex(){
                     .then(() => {
                         setPetSelecionado(null);
                         setMensagem('Pet adotado com sucesso! :D')
+                    }) .catch((error: AxiosError) => {
+
                     })
-                    .catch((error: AxiosError) => {
-                        setMensagem(error.response.data.message);
-                    })
+                   
             } else {
                 setMensagem('Preencha todos os campos corretamente!')
             }
