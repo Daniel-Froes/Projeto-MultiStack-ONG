@@ -13,6 +13,7 @@ import { TextService } from '../../../data/services/TextService'
 
 interface ListaProps{
     pets: Pet[];
+    onSelected: (pet: Pet) => void;
 }
 
 export default function Lista(props: ListaProps){
@@ -31,6 +32,7 @@ export default function Lista(props: ListaProps){
                         <Button
                             variant={'contained'}
                             fullWidth
+                            onClick={() => props.onSelected(pet)}
                         >Adotar {pet.nome}</Button>
                     </Informacoes>
                 </ItemLista>

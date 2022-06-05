@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "axios": "file:.26.0"
+  }
+}
